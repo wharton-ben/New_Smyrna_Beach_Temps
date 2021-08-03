@@ -1,5 +1,8 @@
-* {
-    background-color: whitesmoke;
-    color: rgb(0, 207, 128)
-}
+#main-logo{  
+    height: auto;
+    width: 15rem;;  
+}  
 
+body{
+    background-color: #CFDBD5;
+}
