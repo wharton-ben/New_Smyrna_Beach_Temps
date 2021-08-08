@@ -2,7 +2,37 @@
     height: auto;
     width: 15rem;;  
 }  
-
 body{
     background-color: #CFDBD5;
+    margin: auto;
+    width: 80%;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+#phone{
+    position: relative;
+    text-align: right;
+    margin: 10px;
+}
+#phone img{
+    width: 20px;
+    display: inline;
+    margin-right: 2px;
+}
+#phone p{
+    display: inline;
+}
+#main-navbar{
+    /*float: right;*/
+}
+.section-header{
+    text-align: center;
+    padding: 15px 15px;
+}
+.card{
+    display: inline;
+    width: 25%;
+    float: left;
+}
+#footer{
+    position: relative;
 }

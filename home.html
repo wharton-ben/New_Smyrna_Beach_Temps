@@ -6,54 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+    </style>
     <title>New Smyrna Beach Temps</title>
 </head>
 <body>
+<div id="phone">
+    <img src="images/phone_icon.png" alt="telephone"><p>1(800)123-4567</p>
+</div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="./home.html"><img src="./images/Logo_White.jpg" alt="New Smyrna Beach Temps" id="main-logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <div id="main-navbar"">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Apply</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
             </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-        </ul>
-        <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+            </div>
         </div>
     </div>
     </nav>
     <header>
         <h1>
-            New Smyrna Beach Temps
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/beach_scene_1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/beach_scene_2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/beach_scene_3.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/beach_scene_4.jpg" alt="Third slide">
+                  </div>
+                </div>
+              </div>
         </h1>
     </header>
     <body>
-        <h2>
-            This is a placeholder for the body of the page
+        <h2 class="section-header">
+            Specialties
         </h2>
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:25%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:25%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:25%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img_avatar.png" alt="Avatar" style="width:25%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>Architect & Engineer</p>
+            </div>
+        </div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut natus fugit assumenda! Dolor sed blanditiis consequuntur ab, quaerat quam, praesentium qui possimus nulla ipsum fuga eveniet velit beatae minus minima.
         Eveniet itaque obcaecati ea incidunt aliquid! Praesentium corrupti aperiam debitis nemo libero laboriosam culpa aspernatur. Mollitia accusamus laboriosam magnam labore. Perspiciatis quod expedita eos accusamus vero autem odio quae ratione?
         Tenetur cupiditate nostrum sed, ullam veniam fuga aliquid. Libero aperiam, aliquam doloremque dolorum laborum aut accusamus laboriosam soluta temporibus nihil autem itaque officiis nisi accusantium velit cupiditate mollitia aliquid sequi.
@@ -61,13 +100,14 @@
         Eum animi labore repellat unde mollitia! Vel error molestias alias. Minima, explicabo accusamus, nobis maxime sunt ipsa possimus, recusandae et exercitationem temporibus vel dolores est obcaecati blanditiis quo. Dolor, rem?
         </p>
     </body>
-    <footer>
+    <footer id="footer">
         <ul>
             <li>Home</li>
             <li>Jobs</li>
+            <li>Appy</li>
             <li>About</li>
-            <li>Contact</li>
         </ul>
+        <p>#This is where I will put the contact information#</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
